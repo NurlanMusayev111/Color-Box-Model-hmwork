@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+
+}
+
+.header-nav ul{
+    display: flex;
+    list-style: none;
+} 
+
+.header-nav ul li{
+    /* border: 1px solid black; */
+    height: 58px;
+    width: 90px;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+}
+
+
+.main-heading{
+    height: 300px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.main-heading-img{
+    margin-left: 30px;
+    margin-top: 28px;
+    background-color: lightgray;
+    height: 220px;
+    width: 200px;
+    /* border: 1px solid black; */
+}
+
+
+.main-heading-text h1{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.main-heading-text h3{
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.main-heading-text a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: orangered;
+}
+
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+}
+
+.footer h4{
+    color: orangered;
+    margin-left: 650px;
+    margin-top: 15px;
+}
+
+
+.main-heading-right{
+    height: 903px;
+    width: 522px;
+    /* border: 1px solid black; */
+}
+
+
+.main-heading-right-links{
+    height: 200px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.main-heading-right-links h3{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.main-heading-right-widgets{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.main-heading-right-links ul{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.main-heading-right-links li{
+    list-style: none;
+    margin: 12px 0px;
+}
+
+.main-heading-right-links a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.main-heading-right-widgets h3{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.main-heading-right-widgets h4{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: rgb(145, 145, 145);
+}
+
+
+.main-heading-right{
+    background-color: rgb(216, 216, 216);
+}
